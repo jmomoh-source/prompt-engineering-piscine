@@ -75,5 +75,3 @@ I welcome feedback, collaboration, or opportunities to apply these skills in rea
 **Status:** Complete and Production-Ready  
 **Author:** Jezreal Oseiwe Momoh — Learn2Earn Academy AI Piscine
 ```
-
----
