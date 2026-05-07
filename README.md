@@ -1,61 +1,79 @@
+
 # Prompt Engineering Piscine
 
-A collection of hands-on prompt engineering quests completed as part of the Learn2Earn Academy AI Piscine.
+![Python](https://img.shields.io/badge/language-Python-blue?logo=python)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-Complete-brightgreen)
 
-## Overview
+A portfolio of **hands-on prompt engineering quests** completed as part of the **Learn2Earn Academy AI Piscine** (Feb–Mar 2026).  
+This repository showcases skills in ethical AI use, creative prompt design, debugging, reasoning flows, and role-based prompting — documented in Markdown with supporting Python code.
 
-This repository documents my learning journey through prompt engineering — from writing basic prompts to designing reusable templates, building agent workflows, and applying ethical AI principles in real-world contexts.
+---
 
-Each folder contains my work, reflections, and implementations for a specific quest.
+## 📂 Quest Overview
 
-## Quests Completed
+| Quest            | Focus Area                                      |
+|------------------|-------------------------------------------------|
+| **prompt-basics** | Prompt structure, zero-shot vs few-shot, parameters |
+| **role-prompts**  | Persona simulation, tone variation, mentoring   |
+| **reasoning-flow**| Chain-of-thought, step-by-step logic, multi-step reasoning |
+| **prompt-patterns**| Reusable templates, summarization, data extraction |
+| **debug-control** | Detecting hallucinations, source constraints, delimiters |
+| **tool-prompts**  | Structured JSON, simulated API calls, agent workflows |
+| **creative-ai**   | Storytelling, resume writing, image prompt design |
+| **ai-ethics**     | Bias detection, ethical prompt design, harmful output mitigation |
+| **ethical-ai**    | AI as learning amplifier, fairness contract, irreplaceable skills |
 
-| Quest | Focus |
-|---|---|
-| `prompt-basics` | Prompt structure, zero-shot vs few-shot, temperature and top-p parameters |
-| `role-prompts` | Persona simulation, tone variation, role-based mentoring |
-| `reasoning-flow` | Chain-of-thought prompting, step-by-step logic, multi-step reasoning |
-| `prompt-patterns` | Reusable prompt templates, summarization, data extraction, prompt transformation |
-| `debug-control` | Detecting hallucinations, source constraints, delimiters to anchor responses |
-| `tool-prompts` | Structured JSON output, simulated API calls, chained prompt workflows |
-| `creative-ai` | Generative storytelling, resume writing, image generation prompt design |
-| `ai-ethics` | Bias detection, ethical prompt design, harmful output mitigation |
-| `ethical-ai` | AI as a learning amplifier, fairness contract, irreplaceable skills development |
+---
 
-## Key Skills Developed
+## 🎯 Key Skills Developed
+- Designing prompts that produce consistent, structured, reliable outputs  
+- Using chain-of-thought techniques to expose reasoning and verify answers  
+- Extracting structured JSON data from unstructured text  
+- Identifying and mitigating bias and hallucinations in AI outputs  
+- Building reusable prompt templates across domains  
+- Simulating multi-step agent workflows with chained prompts  
+- Applying ethical principles to AI use in learning and production contexts  
 
-- Designing prompts that produce consistent, structured, and reliable outputs
-- Using chain-of-thought techniques to expose reasoning and verify answers
-- Extracting structured JSON data from unstructured text
-- Identifying and mitigating bias and hallucinations in AI outputs
-- Building reusable prompt templates applicable across domains
-- Simulating multi-step agent workflows using chained prompts
-- Applying ethical principles to AI use in both learning and production contexts
+---
 
-## Tools & Environment
+## 🛠️ Tools & Environment
+- **Language:** Python 3.12.3  
+- **Environment:** Conda, JupyterLab  
+- **Interfaces:** OpenAI, Anthropic  
+- **Version Control:** Git + GitHub  
 
-- Python 3.12.3
-- Conda virtual environment
-- JupyterLab
-- OpenAI / Anthropic interfaces
-- Git + GitHub
+---
 
-## Approach
+## 🏅 Milestone
+- **Prompt Piscine #310**  
+  *Succeeded* — 09 Feb 2026 → 02 Mar 2026  
 
-Every quest followed the same workflow:
+---
 
+## 📖 Approach
+Every quest followed the same workflow:  
+**Attempt independently → Test and document → Use AI strategically → Reflect**  
+
+AI was used as a **learning amplifier** — to deepen understanding, surface edge cases, and explore alternatives — not as a replacement for independent thinking.
+
+---
+
+## 🎓 Portfolio Value
+This repo demonstrates **prompt engineering mastery** across ethics, creativity, debugging, and reasoning.  
+Together with [piscine-go-portfolio](https://github.com/jmomoh-source/piscine-go-portfolio), it forms a **comprehensive showcase** of both programming and AI prompting skills.
+
+---
+
+## 📬 Contact & Feedback
+I welcome feedback, collaboration, or opportunities to apply these skills in real-world projects.  
+
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-blue)](mailto:jezreelmomoh@gmail.com)
+
+---
+
+**Status:** Complete and Production-Ready  
+**Author:** Jezreal Oseiwe Momoh — Learn2Earn Academy AI Piscine
 ```
-Attempt independently → Test and document → Use AI strategically → Reflect
-```
 
-AI was used as a learning amplifier — to deepen understanding, surface edge cases, and explore alternatives — not as a replacement for independent thinking.
-
-## Note on Source Code
-
-Full exercise implementations and detailed answers are maintained in a private repository on Learn2Earn Academy's Gitea instance as required by the programme. This repository serves as a public portfolio summary.
-
-## Author
-
-**Jezreal Oseiwe Momoh**  
-Learn2Earn Academy — AI Piscine  
-[github.com/jmomoh-source](https://github.com/jmomoh-source)
+---
