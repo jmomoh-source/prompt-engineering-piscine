@@ -35,4 +35,4 @@ For 10!: 10! = 10 × 9 × 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1
 # Comparison:
 Prompt 1 gave me only the final answer with no explanation, while Prompt 2 first explained what a factorial is, then showed each multiplication step from 10×9 down to the result. 
 
-The intermediate calculations in Prompt 2 allow me to unstand the process of factorization and gives me insight on how to apply it in other problems. This demonstrates that the chain of thought prompting is essential for learning, verification, and using AI efficiently because it exposes the reasoning process rather than just giving the answers.
+The intermediate calculations in Prompt 2 allow me to understand the process of factorization and gives me insight on how to apply it in other problems. This demonstrates that the chain of thought prompting is essential for learning, verification, and using AI efficiently because it exposes the reasoning process rather than just giving the answers.
