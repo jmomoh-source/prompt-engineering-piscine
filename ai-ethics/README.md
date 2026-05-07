@@ -40,6 +40,7 @@ To explore:
 ---
 
 ## 📂 Project Files
+
 ```
 ai-ethics/
 ├── README.md
@@ -50,7 +51,18 @@ ai-ethics/
 ├── ex3_detecting_mitigating_harmful_outputs.md ← Identifying and mitigating harmful outputs
 ├── ex4_ai_learning_amplifier.md       ← Using AI as a learning amplifier
 └── isPalindrom.py                     ← Palindrome implementation from Exercise 00
----
+```
+
+## 📂 Project Files
+
+- [README.md](./README.md)
+- [ex00_ai_ethics_coder.md](./ex00_ai_ethics_coder.md) ← Personal fairness contract + self-assessment  
+- [ex0_environment_and_libraries.md](./ex0_environment_and_libraries.md) ← Setup and environment notes  
+- [ex1_ai_bias.md](./ex1_ai_bias.md) ← Bias detection exercise  
+- [ex2_ethical_prompts.md](./ex2_ethical_prompts.md) ← Ethical prompt design exercise  
+- [ex3_detecting_mitigating_harmful_outputs.md](./ex3_detecting_mitigating_harmful_outputs.md) ← Identifying and mitigating harmful outputs  
+- [ex4_ai_learning_amplifier.md](./ex4_ai_learning_amplifier.md) ← Using AI as a learning amplifier  
+- [isPalindrom.py](./isPalindrom.py) ← Palindrome implementation from Exercise 00  
 
 ---
 
@@ -107,5 +119,5 @@ I welcome feedback, collaboration, or opportunities to apply these skills in rea
 
 ---
 
-**Author:** Jezreal Momoh — Learn2Earn Academy  
+**Author:** Jezreal Momoh — Learn2Earn Academy
 **Status:** Complete and Production-Ready
