@@ -1,126 +1,81 @@
 # Reasoning Flow
 
+![Python](https://img.shields.io/badge/language-Python-blue?logo=python)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-Complete-brightgreen)
+
+Part of the **Prompt Engineering Piscine** (Feb–Mar 2026).  
 A hands-on exploration of chain-of-thought prompting techniques using Python and AI language models.
 
-## Overview
+---
 
-This project focuses on how structured prompts can guide AI models to "think out loud" and show their reasoning process step by step. Topics covered include:
+## 📖 Overview
+This quest focuses on how structured prompts can guide AI models to "think out loud" and show their reasoning process step by step.  
+Key themes:
+- Boosting reasoning with step-by-step logic  
+- Letting the model expose intermediate reasoning before final answers  
+- Breaking complex multi-step problems into smaller, verifiable parts  
 
-- Boosting reasoning with step-by-step logic
-- Letting the model expose intermediate reasoning before final answers
-- Breaking complex multi-step problems into smaller, verifiable parts
+---
 
-## Learning Objectives
+## 📂 How to Explore
+This quest is documented entirely in Markdown with supporting Python scripts.  
+To explore:
+- Open any `exXX_*.md` file to read the exercise description and reflections  
+- Run `hello.py` to test the Python setup from Exercise 0  
+- Review the README for a structured overview of the entire quest  
 
-By the end of this quest, you will be able to:
+---
 
-- Apply chain-of-thought prompting to math, logic, and coding problems
-- Encourage reasoning before final answers with structured prompts
-- Create multi-step prompts for solving complex questions
+## 📝 Quest Exercises
 
-## Requirements
+| Exercise | File | Focus |
+|----------|------|-------|
+| **00 — Environment & Libraries** | [ex0_environment_and_Libraries.md](./ex0_environment_and_Libraries.md) | Python setup and library verification |
+| **01 — Logic Puzzle** | [ex1_logic_puzzle_with_explanation.md](./ex1_logic_puzzle_with_explanation.md) | Comparing answers with and without reasoning |
+| **02 — Step-by-Step Reasoning** | [ex2_step_by_step_reasoning_prompt.md](./ex2_step_by_step_reasoning_prompt.md) | Factorial calculation with chain-of-thought |
+| **03 — Multi-Step Question Answering** | [ex3_multi_step_question_answering.md](./ex3_multi_step_question_answering.md) | Breaking complex problems into smaller steps |
+| **Python Script** | [hello.py](./hello.py) | Hello World program from Exercise 0 |
 
-- Python 3.9+
-- `numpy`
-- `pandas`
-- `jupyter`
-- OpenAI Playground or ChatGPT interface
+---
 
-## Setup
-
-1. **Clone the repository**
-   ```bash
-   git clone https://acad.learn2earn.ng/git/jmomoh/reasoning-flow
-   cd reasoning-flow
-   ```
-
-2. **Verify Python version**
-   ```bash
-   python --version
-   # Expected: Python 3.9+
-   ```
-
-3. **Install dependencies**
-   ```bash
-   pip install numpy pandas jupyter
-   ```
-
-## Exercises
-
-### Exercise 0: Environment and Libraries
-Set up the Python development environment, verify the installation, and confirm all required libraries are importable.
-
-```python
-import sys
-print(f"Python version: {sys.version}")
-
-import jupyter, numpy, pandas
-print("All libraries imported successfully!")
-print(f"Numpy version: {numpy.__version__}")
-print(f"Pandas version: {pandas.__version__}")
+## 📂 Repository Structure
+```
+reasoning-flow/
+├── README.md
+├── ex0_environment_and_Libraries.md
+├── ex1_logic_puzzle_with_explanation.md
+├── ex2_step_by_step_reasoning_prompt.md
+├── ex3_multi_step_question_answering.md
+└── hello.py
 ```
 
-**Result:** Python 3.12.3 confirmed, all libraries loaded successfully.
+---
+
+## 🏅 Milestone
+- **Prompt Piscine #313 — Reasoning Flow Quest**  
+  *Succeeded* — 13 Feb 2026 → 14 Feb 2026  
 
 ---
 
-### Exercise 1: Logic Puzzle with Explanation
-
-A custom logic puzzle was used to compare outputs with and without reasoning instructions.
-
-**Puzzle:** *"Jonathan scored higher than Tiwa. Ibrahim scored lower than Tiwa but higher than John. Who scored the lowest?"*
-
-| Prompt | Output |
-|---|---|
-| Without reasoning | *"John scored the lowest."* — answer only, no explanation |
-| With *"Explain your reasoning before giving the final answer"* | Full step-by-step ranking: Jonathan → Tiwa → Ibrahim → John |
-
-**Key Takeaway:** Without reasoning instructions, the model skips straight to the answer. Adding "explain your reasoning" forced the model to surface each logical relationship, making the conclusion easy to verify and understand.
+## 🎓 Portfolio Value
+This quest demonstrates my ability to:
+- Apply chain-of-thought prompting to math, logic, and coding problems  
+- Encourage reasoning before final answers with structured prompts  
+- Create multi-step prompts for solving complex questions  
+- Document reasoning processes for transparency and verification  
 
 ---
 
-### Exercise 2: Step-by-Step Reasoning Prompt
-
-The same math problem was submitted with and without the chain-of-thought trigger phrase.
-
-**Problem:** *"Calculate the factorial of 10"*
-
-| Prompt | Output |
-|---|---|
-| Without reasoning | `10! = 3,628,800` — final answer only |
-| With *"Let's think step by step"* | Definition of factorial → each multiplication step from 10×9 down to ×1 → final answer |
-
-**Key Takeaway:** The phrase *"Let's think step by step"* is a simple but powerful trigger. It shifted the model from answer-delivery mode into a teaching mode where each intermediate calculation was shown and could be verified independently.
+## 📚 Resources
+- [Learn Prompting – Chain of Thought](https://learnprompting.org/docs/intermediate/chain_of_thought)  
+- [Prompt Engineering Guide – Reasoning Prompts](https://www.promptingguide.ai/techniques/cot)  
+- [Anthropic Prompt Library – Reasoning Examples](https://docs.anthropic.com/en/prompt-library/library)  
 
 ---
 
-### Exercise 3: Multi-Step Question Answering
+## 📬 Contact
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-blue)](mailto:jezreelmomoh1234@gmail.com)
 
-A structured prompt with explicit instructions was used to break a calculation into stages.
-
-**Problem:** *"What is 25% of the sum of 30 and 70?"*
-
-**Structured prompt instructions given:**
-1. Restate the problem in your own words
-2. Break it into smaller steps
-3. Solve each step before moving to the next
-4. Provide the final answer
-
-**Model output followed all four instructions:**
-- Restatement → find 25% of the total of 30 and 70
-- Step A → 30 + 70 = 100
-- Step B → 25% of 100 = 0.25 × 100 = **25**
-
-**Key Takeaway:** Providing an explicit structure inside the prompt — restate, break down, solve, answer — produced a fully transparent solution. Each intermediate result could be checked, making it far easier to catch errors in more complex problems than a direct single-step answer would allow.
-
----
-
-## Resources
-
-- [Learn Prompting – Chain of Thought](https://learnprompting.org/docs/intermediate/chain_of_thought)
-- [Prompt Engineering Guide – Reasoning Prompts](https://www.promptingguide.ai/techniques/cot)
-- [Anthropic Prompt Library – Reasoning Examples](https://docs.anthropic.com/en/prompt-library/library)
-
-## Author
-
-**jmomoh** — Learn2Earn Academy
+**Author:** Jezreal Momoh @Learn2EarnNG 
+**Status:** Complete and Production‑Ready
