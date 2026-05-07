@@ -71,5 +71,5 @@ This quest demonstrates my ability to:
 ## 📬 Contact
 [![Email](https://img.shields.io/badge/Email-Contact%20Me-blue)](mailto:jezreelmomoh1234@gmail.com)
 
-**Author:** Jezreal Oseiwe Momoh — Learn2Earn Academy  
+**Author:** Jezreal Momoh @Learn2EarnNG
 **Status:** Complete and Production‑Ready
