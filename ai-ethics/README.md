@@ -60,18 +60,27 @@ ai-ethics/
 - Use the README for a structured overview of the entire quest.  
 
 ---
-
 ## 📝 Quest Exercises
-*(Keep your detailed exercise breakdowns — they’re excellent. Just rename the section to “Quest Exercises” for consistency.)*
 
+This quest is divided into several exercises, each documented in Markdown with supporting Python code:
+
+| Exercise | File | Focus |
+|----------|------|-------|
+| **00 — AI Ethics Coder** | [ex00_ai_ethics_coder.md](./ex00_ai_ethics_coder.md) | Personal fairness contract + self-assessment |
+| **01 — Environment & Libraries** | [ex0_environment_and_libraries.md](./ex0_environment_and_libraries.md) | Setup and environment notes |
+| **02 — AI Bias** | [ex1_ai_bias.md](./ex1_ai_bias.md) | Identifying and mitigating bias in outputs |
+| **03 — Ethical Prompts** | [ex2_ethical_prompts.md](./ex2_ethical_prompts.md) | Designing safe and fair prompts |
+| **04 — Harmful Outputs** | [ex3_detecting_mitigating_harmful_outputs.md](./ex3_detecting_mitigating_harmful_outputs.md) | Detecting and mitigating harmful outputs |
+| **05 — AI as Learning Amplifier** | [ex4_ai_learning_amplifier.md](./ex4_ai_learning_amplifier.md) | Using AI to deepen understanding, not shortcut learning |
+| **Python Script** | [isPalindrom.py](./isPalindrom.py) | Palindrome implementation from Exercise 00 |
 ---
 
 ## 📚 Resources
-- [OECD Principles on AI](https://oecd.ai/en/ai-principles)  
-- [UNESCO AI Ethics Recommendation](https://www.unesco.org/en/artificial-intelligence/recommendation-ethics)  
-- [Microsoft Responsible AI Standard](https://www.microsoft.com/en-us/ai/responsible-ai)  
-- [Anthropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)  
-- [Hugging Face Ethics](https://huggingface.co/blog/ethics-soc-2)  
+- [OECD Principles on AI](https://oecd.ai/en/ai-principles)
+- [UNESCO AI Ethics Recommendation](https://www.unesco.org/en/artificial-intelligence/recommendation-ethics)
+- [Microsoft Responsible AI Standard](https://www.microsoft.com/en-us/ai/responsible-ai)
+- [Anthropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
+- [Hugging Face Ethics](https://huggingface.co/blog/ethics-soc-2)
 
 ---
 
