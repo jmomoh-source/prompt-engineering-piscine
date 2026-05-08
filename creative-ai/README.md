@@ -60,10 +60,10 @@ By the end of this quest, you will be able to:
 
 | Exercise | File | Focus |
 |----------|------|-------|
-| **00 — Environment & Libraries** | `[Looks like the result wasn't safe to show. Let's switch things up and try something else!]` | Python setup and library verification |
-| **01 — Short Story Generation** | `[Looks like the result wasn't safe to show. Let's switch things up and try something else!]` | Creative writing with thematic prompts |
-| **02 — Resume Summary** | `[Looks like the result wasn't safe to show. Let's switch things up and try something else!]` | Professional content generation |
-| **03 — Image Prompt Design** | `[Looks like the result wasn't safe to show. Let's switch things up and try something else!]` | Descriptive prompts for image models |
+| **00 — Environment & Libraries** | [ex0_environment and libraries.md](./ex0_environment%20and%20libraries.md) | Python setup and library verification |
+| **01 — Short Story Generation** | [ex1_generating_a_short_story_from_a_theme.md](./ex1_generating_a_short_story_from_a_theme.md) | Creative writing with thematic prompts |
+| **02 — Resume Summary** | [ex2_personalized_resume_summary.md](./ex2_personalized_resume_summary.md) | Professional content generation |
+| **03 — Image Prompt Design** | [ex3_image_generation_prompt_design.md](./ex3_image_generation_prompt_design.md) | Descriptive prompts for image models |
 
 ---
 
@@ -85,6 +85,15 @@ creative-ai/
 ## 🏅 Milestone
 - **Prompt Piscine #317 — Creative AI Quest**  
   *Succeeded* — 17 Feb 2026 → 18 Feb 2026  
+
+
+## 🎨 Generated Images (Exercise 3 Results)
+
+**Vague Prompt Result**
+![Futuristic City — Vague Prompt](./Generated%20Image%20February%2020,%202026%20-%201_20PM.png)
+
+**Refined Prompt Result**
+![Futuristic City — Refined Prompt](./Generated%20Image%20February%2020,%202026%20-%201_22PM.png)
 
 ---
 
