@@ -1,4 +1,3 @@
-
 # Prompt Engineering Piscine
 
 ![Python](https://img.shields.io/badge/language-Python-blue?logo=python)
@@ -43,6 +42,45 @@ This repository showcases skills in ethical AI use, creative prompt design, debu
 - **Interfaces:** OpenAI, Anthropic  
 - **Version Control:** Git + GitHub  
 
+### 🔧 Step-by-Step Setup Guide
+
+1. **Install Miniconda or Anaconda**  
+   - [Download Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/download).  
+
+2. **Open your terminal (or Anaconda Prompt on Windows).**
+
+3. **Create a new virtual environment**  
+   Replace `piscine` with any name you prefer:
+   ```bash
+   conda create --name piscine python=3.12
+   ```
+
+4. **Activate the environment**
+   ```bash
+   conda activate piscine
+   ```
+
+5. **Install required dependencies**
+   ```bash
+   conda install numpy pandas jupyter
+   ```
+
+6. **Verify installation**
+   ```bash
+   python --version
+   python -c "import numpy, pandas, jupyter; print('Libraries imported successfully!')"
+   ```
+
+7. **Deactivate when done**
+   ```bash
+   conda deactivate
+   ```
+
+**Tip:** You can list all environments with:
+```bash
+conda env list
+```
+
 ---
 
 ## 🏅 Milestone
@@ -68,10 +106,9 @@ Together with [piscine-go-portfolio](https://github.com/jmomoh-source/piscine-go
 ## 📬 Contact & Feedback
 I welcome feedback, collaboration, or opportunities to apply these skills in real-world projects.  
 
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-blue)](mailto:jezreelmomoh@gmail.com)
+[`mailto:jezreelmomoh@gmail.com`](mailto:jezreelmomoh@gmail.com)
 
 ---
 
 **Status:** Complete and Production-Ready  
-**Author:** Jezreal Momoh — Learn2Earn Academy AI Piscine
-```
+**Author:** Jezreal Momoh @Learn2EarnNG AI Piscine
