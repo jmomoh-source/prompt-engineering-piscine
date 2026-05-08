@@ -1,36 +1,45 @@
 # Creative AI
 
+![Python](https://img.shields.io/badge/language-Python-blue?logo=python)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-Complete-brightgreen)
+
+Part of the **Prompt Engineering Piscine** (Feb–Mar 2026).  
 A hands-on exploration of generative prompting for creative text, professional content, and image generation.
 
-## Overview
+---
 
-This project applies prompt engineering to real-world creative use cases, from storytelling and resume writing to designing descriptive prompts for image generation models. Topics covered include:
+## 📖 Overview
+This project applies prompt engineering to real-world creative use cases, from storytelling and resume writing to designing descriptive prompts for image generation models.  
+Key themes:
+- Generative prompts for text and creative outputs (stories, visuals, marketing)  
+- Applied prompting for real-world use cases such as UX, resumes, ideation, and design  
 
-- Generative prompts for text and creative outputs (stories, visuals, marketing)
-- Applied prompting for real-world use cases such as UX, resumes, ideation, and design
+---
 
-## Learning Objectives
-
+## 🎯 Learning Objectives
 By the end of this quest, you will be able to:
+- Write prompts for creative generation tasks  
+- Personalize prompts for industry-specific applications  
+- Explore prompts for both text-based and image-based models  
 
-- Write prompts for creative generation tasks
-- Personalize prompts for industry-specific applications
-- Explore prompts for both text-based and image-based models
+---
 
-## Requirements
+## ⚙️ Requirements
+- Python 3.9+  
+- `numpy`  
+- `pandas`  
+- `jupyter`  
+- OpenAI Playground or ChatGPT interface  
+- Image model interface (e.g., DALL·E, Stable Diffusion)  
 
-- Python 3.9+
-- `numpy`
-- `pandas`
-- `jupyter`
-- OpenAI Playground or ChatGPT interface
-- Image model interface (e.g., DALL·E, Stable Diffusion)
+---
 
-## Setup
+## 🛠️ Setup
 
 1. **Clone the repository**
    ```bash
-   git clone https://acad.learn2earn.ng/git/jmomoh/creative-ai
+   git clone https://github.com/jmomoh/creative-ai
    cd creative-ai
    ```
 
@@ -45,75 +54,56 @@ By the end of this quest, you will be able to:
    pip install numpy pandas jupyter
    ```
 
-## Exercises
+---
 
-### Exercise 0: Environment and Libraries
-Set up the Python development environment, verify the installation, and confirm all required libraries are importable.
+## 📝 Exercises
 
-```python
-import sys
-print(f"Python version: {sys.version}")
+| Exercise | File | Focus |
+|----------|------|-------|
+| **00 — Environment & Libraries** | `[Looks like the result wasn't safe to show. Let's switch things up and try something else!]` | Python setup and library verification |
+| **01 — Short Story Generation** | `[Looks like the result wasn't safe to show. Let's switch things up and try something else!]` | Creative writing with thematic prompts |
+| **02 — Resume Summary** | `[Looks like the result wasn't safe to show. Let's switch things up and try something else!]` | Professional content generation |
+| **03 — Image Prompt Design** | `[Looks like the result wasn't safe to show. Let's switch things up and try something else!]` | Descriptive prompts for image models |
 
-import jupyter, numpy, pandas
-print("All libraries imported successfully!")
-print(f"Numpy version: {numpy.__version__}")
-print(f"Pandas version: {pandas.__version__}")
+---
+
+## 📂 Repository Structure
+```
+creative-ai/
+├── README.md
+├── ex0_environment and libraries.md
+├── ex1_generating_a_short_story_from_a_theme.md
+├── ex2_personalized_resume_summary.md
+├── ex3_image_generation_prompt_design.md
+├── Generated Image February 20, 2026 - 1_20PM.png
+├── Generated Image February 20, 2026 - 1_22PM.png
+└── environment.yml
 ```
 
-**Result:** Python 3.12.3 confirmed, all libraries loaded successfully.
+---
+
+## 🏅 Milestone
+- **Prompt Piscine #317 — Creative AI Quest**  
+  *Succeeded* — 17 Feb 2026 → 18 Feb 2026  
 
 ---
 
-### Exercise 1: Generating a Short Story from a Theme
-
-Three different themes were tested using the same base prompt structure to compare how theme drives tone and genre.
-
-**Base prompt:** *"Write a short story about [theme] in under 300 words."*
-
-| Theme | Genre/Tone | Setting | Word Count |
-|---|---|---|---|
-| Interstellar | Epic sci-fi, emotional sacrifice narrative | Space / Lagos | 248 |
-| Psychosis | Dark psychological horror | Lagos flat & market | 238 |
-| Déjà Vu | Mysterious, philosophical loop tale | Lagos streets & market | 246 |
-
-All three stories naturally incorporated Lagos-based settings, showing the AI maintained consistent contextual patterns while adapting genre and emotional tone entirely to the theme.
-
-**Key Takeaway:** A single clear theme word is enough to shift the entire tone, vocabulary, and narrative structure of the output. Sci-fi themes produced technical, cosmic language; psychological themes produced tense, sensory writing; mystery themes produced philosophical, introspective prose. Theme is one of the most powerful creative controls available in a prompt.
+## 🎓 Portfolio Value
+This quest demonstrates my ability to:
+- Apply generative prompting for storytelling and professional writing  
+- Personalize prompts for different industries and roles  
+- Design descriptive prompts for image generation models  
+- Document creative outputs with clear comparisons between vague and refined prompts  
 
 ---
 
-### Exercise 2: Personalized Resume Summary
-
-The same resume summary prompt was adapted for two different professional roles to observe how the AI adjusts language and emphasis.
-
-| Role | Prompt Focus | Output Style |
-|---|---|---|
-| DevOps Engineer | Python, cloud systems, CI/CD | Technical jargon, quantified metrics (60% faster deployments, 99.9% uptime) |
-| Teacher | Physics, Chemistry, conversational skills | Soft skills focus, emotional impact language ("passionate", "ignite curiosity") |
-
-**Key Takeaway:** The AI automatically calibrates vocabulary, tone, and evidence type to the role — technical roles get tools, frameworks, and numbers; education roles get human-centred, impact-driven language. Simply specifying the role and relevant skills is enough to unlock a professionally appropriate, field-specific summary.
+## 📚 Resources
+- 106 Prompts for Creativity [(creativebloq.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fwww.creativebloq.com%2Ffeatures%2Fchatgpt-prompts-for-creatives")  
+- Awesome ChatGPT Prompts – Creative Uses [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2Ff%2Fawesome-chatgpt-prompts")  
+- DALL·E Prompt Book [(dallery.gallery in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fdallery.gallery%2Fthe-dalle-2-prompt-book%2F")  
 
 ---
 
-### Exercise 3: Image Generation Prompt Design
-
-A vague image prompt was refined with specific constraints to demonstrate how descriptive detail directly controls creative output.
-
-| Prompt Type | Prompt | Result |
-|---|---|---|
-| **Vague** | *"Generate a futuristic city at sunset image"* | Clean aerial view, utopian skyline, sleek glass towers, generic sci-fi feel |
-| **Refined** | *"Futuristic city skyline at sunset in vibrant graffiti art style, viewed from street level. Towering skyscrapers covered in neon tags and murals, flying cars leaving light trails, holographic billboards flickering. Bold spray-paint textures with electric blues, hot pinks, and gold accents."* | Gritty cyberpunk streetscape, graffiti-covered buildings, chaotic neon energy, strong urban rebellion atmosphere |
-
-**Key Takeaway:** The vague prompt defaulted to a generic, clean sci-fi interpretation. The refined prompt's explicit constraints — art style (graffiti), viewpoint (street level), mood (rebellion), and colour palette — each translated directly into visible elements in the final image. Descriptive prompts give precise creative control; vague prompts hand that control entirely to the model.
-
----
-
-## Resources
-
-- [106 Prompts for Creativity](https://www.creativebloq.com/features/chatgpt-prompts-for-creatives)
-- [Awesome ChatGPT Prompts – Creative Uses](https://github.com/f/awesome-chatgpt-prompts)
-- [DALL·E Prompt Book](https://dallery.gallery/the-dalle-2-prompt-book/)
-
-## Author
-
-**jmomoh** — Learn2Earn Academy
+## 👤 Author
+**Jezreal Oseiwe Momoh** @Learn2EarnNG  
+**Status:** Complete and Production‑Ready
