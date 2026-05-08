@@ -7,7 +7,7 @@ Generate a futuristic city at sunset image
 An aerial view of a sleek, futuristic city displays towering glass skyscrapers and winding sky-bridges bathed in the warm glow of a purple and orange sunset. Flying vehicles and glowing holographic billboards add a cinematic, high-tech energy to the clean, eco-friendly urban landscape.
 
 **Image file:**
-![alt txt](/Generated Image February 20, 2026 - 1_20PM.png)
+![Futuristic City — Vague Prompt](./Generated%20Image%20February%2020,%202026%20-%201_20PM.png)
 
 ## Refined Prompt
 
@@ -18,7 +18,7 @@ Generate a futuristic city skyline at sunset in vibrant graffiti art style, view
 This vibrant, comic-style illustration depicts a gritty cyberpunk streetscape defined by towering skyscrapers covered in colorful graffiti and glowing neon billboards. Under an orange sunset, flying vehicles navigate through narrow city corridors while streaks of light and plumes of steam add to the chaotic, high-energy atmosphere.
 
 **Image file:**
-![alt txt](/Generated Image February 20, 2026 - 1_22PM.png)
+![Futuristic City — Refined Prompt](./Generated%20Image%20February%2020,%202026%20-%201_22PM.png)
 
 
 ## Comparison 
