@@ -106,7 +106,7 @@ Together with [piscine-go-portfolio](https://github.com/jmomoh-source/piscine-go
 ## 📬 Contact & Feedback
 I welcome feedback, collaboration, or opportunities to apply these skills in real-world projects.  
 
-[`mailto:jezreelmomoh@gmail.com`](mailto:jezreelmomoh@gmail.com)
+[Email me](mailto:jezreelmomoh1234@gmail.com)
 
 ---
 
