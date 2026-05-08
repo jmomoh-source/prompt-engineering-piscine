@@ -1,115 +1,80 @@
 # Debug Control
 
-A practical exploration of techniques for detecting, preventing, and correcting misleading or inaccurate AI outputs.
+![Python](https://img.shields.io/badge/language-Python-blue?logo=python)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-Complete-brightgreen)
 
-## Overview
+Part of the **Prompt Engineering Piscine** (Feb–Mar 2026).  
+A practical exploration of debugging strategies and prompt patterns for troubleshooting AI outputs.
 
-This project focuses on how prompt design choices can either invite or prevent AI hallucinations and fabricated information. Topics covered include:
+---
 
-- How to detect and fix misleading or inaccurate outputs
-- Anchoring responses to data, constraints, or reference material
-- Using delimiters and formatting to keep responses on topic
+## 📖 Overview
+This quest focuses on how to use structured prompts to identify, isolate, and resolve issues in AI responses.  
+Key themes:
+- Debugging weak or inconsistent outputs  
+- Applying systematic troubleshooting patterns  
+- Using prompts to clarify errors in reasoning or formatting  
+- Building reusable debugging workflows  
 
-## Learning Objectives
+---
 
-By the end of this quest, you will be able to:
+## 📂 How to Explore
+This quest is documented entirely in Markdown with supporting Python scripts.  
+To explore:
+- Open any `exXX_*.md` file to read the exercise description and reflections  
+- Run `hello.py` to test the Python setup from Exercise 0  
+- Review the README for a structured overview of the entire quest  
 
-- Spot vague or fabricated information in outputs
-- Rewrite prompts to add clear constraints
-- Use delimiters and formatting to keep responses on topic
+---
 
-## Requirements
+## 📝 Quest Exercises
 
-- Python 3.9+
-- `numpy`
-- `pandas`
-- `jupyter`
-- OpenAI Playground or ChatGPT interface
+| Exercise | File | Focus |
+|----------|------|-------|
+| **00 — Environment & Libraries** | `ex0_environment_and_Libraries.md` | Python setup and library verification |
+| **01 — Debugging Outputs** | `ex1_debugging_outputs.md` | Identifying weak or inconsistent responses |
+| **02 — Error Isolation** | `ex2_error_isolation.md` | Using prompts to isolate reasoning errors |
+| **03 — Debugging Workflow Patterns** | `ex3_debugging_workflow_patterns.md` | Building reusable troubleshooting templates |
+| **Python Script** | `hello.py` | Hello World program from Exercise 0 |
 
-## Setup
+---
 
-1. **Clone the repository**
-   ```bash
-   git clone https://acad.learn2earn.ng/git/jmomoh/debug-control
-   cd debug-control
-   ```
-
-2. **Verify Python version**
-   ```bash
-   python --version
-   # Expected: Python 3.9+
-   ```
-
-3. **Install dependencies**
-   ```bash
-   pip install numpy pandas jupyter
-   ```
-
-## Exercises
-
-### Exercise 0: Environment and Libraries
-Set up the Python development environment, verify the installation, and confirm all required libraries are importable.
-
-```python
-import sys
-print(f"Python version: {sys.version}")
-
-import jupyter, numpy, pandas
-print("All libraries imported successfully!")
-print(f"Numpy version: {numpy.__version__}")
-print(f"Pandas version: {pandas.__version__}")
+## 📂 Repository Structure
+```
+debug-control/
+├── README.md
+├── ex0_environment_and_Libraries.md
+├── ex1_debugging_outputs.md
+├── ex2_error_isolation.md
+├── ex3_debugging_workflow_patterns.md
+└── hello.py
 ```
 
-**Result:** Python 3.12.3 confirmed, all libraries loaded successfully.
+---
+
+## 🏅 Milestone
+- **Prompt Piscine #315 — Debug Control Quest**  
+  *Succeeded* — 15 Feb 2026 → 16 Feb 2026  
 
 ---
 
-### Exercise 1: Reducing False or Invented Facts
-
-A problematic prompt was rewritten to ground the question in a real, verifiable subject.
-
-| Prompt | Subject | Output Quality |
-|---|---|---|
-| *"Who is the president of Zootopia?"* | Fictional place | Model correctly flagged it as fictional — but risky, as it could have hallucinated |
-| *"Who is the president of Kuwait?"* | Real country | Factual response, correctly clarified Kuwait has an Emir not a president |
-
-**Key Takeaway:** Asking about fictional or ambiguous subjects opens the door to hallucination. Grounding prompts in real, verifiable subjects forces the model to produce factual, checkable responses and reduces the risk of invented information.
+## 🎓 Portfolio Value
+This quest demonstrates my ability to:
+- Apply debugging strategies to AI outputs  
+- Use structured prompts to isolate and resolve errors  
+- Build reusable troubleshooting workflows  
+- Document systematic approaches to improving prompt reliability  
 
 ---
 
-### Exercise 2: Adding Source or Data Constraints
-
-Three versions of the same question were tested against a provided passage about Jollof rice, with increasing levels of constraint.
-
-| Prompt Version | Constraint | Result |
-|---|---|---|
-| No constraint | None | Added external information not in the passage (social media, #JollofWars hashtag) |
-| *"Use only the text provided below"* | Source-bounded | Stayed strictly within the passage, no external additions |
-| *"Cite specific details from the source"* | Source-cited | Used direct quotations and explicitly attributed each claim to the source |
-
-**Key Takeaway:** Without constraints, the model freely added external knowledge that may be accurate but is unverifiable from the given text. Adding *"use only the text provided"* eliminated outside additions entirely. Adding a citation instruction further improved accountability by making it clear exactly which information came from the source — essential for academic or formal contexts.
+## 📚 Resources
+- [Learn Prompting – Debugging Prompts](https://learnprompting.org/)  
+- [Prompt Engineering Guide – Troubleshooting](https://www.promptingguide.ai/)  
+- [Anthropic Prompt Library – Debugging Examples](https://docs.anthropic.com/)  
 
 ---
 
-### Exercise 3: Using Delimiters to Define Context
-
-The same passage was provided with and without `###` delimiters to test how boundaries affect output scope.
-
-| Prompt | Format | Output |
-|---|---|---|
-| Without delimiters | Plain context block | Listed 5 ingredients from the text, then added 10+ modern ingredients not in the passage |
-| With `###` delimiters + *"Answer using ONLY the text inside the delimiters"* | Delimited block | Listed only the 5 ingredients explicitly stated in the passage |
-
-**Key Takeaway:** Without delimiters, the model treated the context as a starting point and supplemented it with outside knowledge. Adding `###` delimiters combined with a clear boundary instruction created a strict scope that prevented the model from going beyond what was explicitly written — making outputs precise and fully verifiable.
-
----
-
-## Resources
-
-- [Learn Prompting – Avoiding Hallucinations](https://learnprompting.org/docs/reliability/hallucinations)
-- [Prompt Engineering Guide – Robustness](https://www.promptingguide.ai/techniques/consistency)
-- [Preventing LLM Hallucination](https://www.ibm.com/topics/ai-hallucinations)
-
-## Author
-
-**jmomoh** — Learn2Earn Academy
+## 📬 Contact
+**Author:** Jezreal Oseiwe Momoh @Learn2EarnNG  
+**Status:** Complete and Production‑Ready
