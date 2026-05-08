@@ -106,7 +106,7 @@ Together with [piscine-go-portfolio](https://github.com/jmomoh-source/piscine-go
 ## 📬 Contact & Feedback
 I welcome feedback, collaboration, or opportunities to apply these skills in real-world projects.  
 
-[![Email](https://img.shields.io/badge/Email-jezreelmomoh%40gmail.com-blue)](mailto:jezreelmomoh@gmail.com)
+[![Email](https://img.shields.io/badge/ContactMe-blue)](mailto:jezreelmomoh1234@gmail.com)
 
 
 ---
