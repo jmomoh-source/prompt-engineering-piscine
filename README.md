@@ -11,17 +11,17 @@ This repository showcases skills in ethical AI use, creative prompt design, debu
 
 ## 📂 Quest Overview
 
-| Quest            | Focus Area                                      |
-|------------------|-------------------------------------------------|
-| **prompt-basics** | Prompt structure, zero-shot vs few-shot, parameters |
-| **role-prompts**  | Persona simulation, tone variation, mentoring   |
-| **reasoning-flow**| Chain-of-thought, step-by-step logic, multi-step reasoning |
-| **prompt-patterns**| Reusable templates, summarization, data extraction |
-| **debug-control** | Detecting hallucinations, source constraints, delimiters |
-| **tool-prompts**  | Structured JSON, simulated API calls, agent workflows |
-| **creative-ai**   | Storytelling, resume writing, image prompt design |
-| **ai-ethics**     | Bias detection, ethical prompt design, harmful output mitigation |
-| **ethical-ai**    | AI as learning amplifier, fairness contract, irreplaceable skills |
+| Quest | Focus Area |
+|-------|------------|
+| [prompt-basics](./prompt-basics) | Prompt structure, zero-shot vs few-shot, parameters |
+| [role-prompts](./role-prompts) | Persona simulation, tone variation, mentoring |
+| [reasoning-flow](./reasoning-flow) | Chain-of-thought, step-by-step logic, multi-step reasoning |
+| [prompt-patterns](./prompt-patterns) | Reusable templates, summarization, data extraction |
+| [debug-control](./debug-control) | Detecting hallucinations, source constraints, delimiters |
+| [tool-prompts](./tool-prompts) | Structured JSON, simulated API calls, agent workflows |
+| [creative-ai](./creative-ai) | Storytelling, resume writing, image prompt design |
+| [ai-ethics](./ai-ethics) | Bias detection, ethical prompt design, harmful output mitigation |
+| [ethical-ai](./ethical-ai) | AI as learning amplifier, fairness contract, irreplaceable skills |
 
 ---
 
